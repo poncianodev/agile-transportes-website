@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://imgur.com/a/sgWi89n" alt="Agile Transportes Logo" width="300">
+  <img src="https://i.imgur.com/MAPFjnN.png" alt="Agile Transportes Logo" width="300">
 </p>
 
 # Agile Transportes
