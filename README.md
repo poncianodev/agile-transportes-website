@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://imgur.com/a/sgWi89n" alt="Agile Transportes Logo" width="300">
+</p>
+
 # Agile Transportes
 
 Bem-vindo ao projeto "Agile Transportes"! Este é um site fictício para uma transportadora, desenvolvido com HTML, CSS e JavaScript.
