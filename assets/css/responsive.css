@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-text {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+}

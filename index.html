@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
   <link rel="shortcut icon" href="./assets/images/agile-truck-icon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/b536156055.js" crossorigin="anonymous"></script>
   <title>Agile Transportes - Transportando o futuro</title>
 </head>
 
@@ -14,12 +16,30 @@
     <img src="./assets/images/agile-logo.png" alt="Logo da Agile Transportes" id="nav-logo">
 
     <nav class="header-nav">
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+      <div class="desktop-menu">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="close-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -31,7 +51,7 @@
 
       <div class="overlay-video">
         <div class="hero-text">
-          <h1>NÓS TRANSPORTAMOS O <span>FUTURO</span></h1>
+          <h1>NÓS TRANSPORTAMOS O <span>FUTURO!</span></h1>
 
           <a href="#"><button class="hero-button">Solicite uma cotação</button></a>
         </div>
