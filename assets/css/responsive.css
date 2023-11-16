@@ -1,14 +1,35 @@
+@media (max-width: 1400px) {
+  #services {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1160px) {
+  #services {
+    max-width: 90%;
+  }
+}
+
 @media (max-width: 1024px) {
   #about-us {
-    flex-direction: column;
+    align-items: unset;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
   }
 
   #about-us img {
     margin-bottom: -2rem;
+    max-height: 30rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 870px) {
   .menu-btn {
     display: none;
   }
@@ -18,20 +39,50 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .desktop-menu {
     display: none;
   }
 
   #about-us {
-    padding: 0 5rem;
+    gap: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  #about-us {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  #about-us img {
+    margin-bottom: 1rem;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .section-heading {
+    text-align: center;
+  }
+
+  #services {
+    max-width: 80%;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .hero-text {
     font-size: 1.4rem;
     padding: 0.8rem;
+  }
+
+  #services {
+    max-width: 90%;
   }
 }
 
@@ -40,11 +91,15 @@
     padding: 0 2rem;
   }
 
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
   .about-content h2 {
     text-align: center;
   }
 
-  #about-us img {
-    margin-bottom: -4rem;
+  .hero-button {
+    font-size: 1rem;
   }
 }

@@ -6,8 +6,10 @@
   --dark-color: #36393F;
   --black-color: #161716;
   --white-color: #fffafa;
+  --white-color2: #f4f4f4;
   --gray-color: #d0d0d0;
   --dark-shadow: 1px 1px 2px var(--dark-color);
+  --light-shadow: text-shadow: 0px 1px 1px rgba(22, 23, 22, 0.20);
 }
 
 * {
@@ -87,6 +89,7 @@ video {
   text-align: center;
   padding: 1.2rem;
   max-width: 100%;
+  margin-top: 5rem;
 }
 
 span {
@@ -162,7 +165,7 @@ span {
   list-style: none;
   font-size: 1.5rem;
   gap: 2rem;
-  margin: 15rem 0;
+  margin: 10rem 0;
 }
 
 .mobile-menu ul a {
@@ -204,12 +207,13 @@ span {
 }
 
 #about-us {
-  margin: 5rem auto;
+  margin: 8rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
+  gap: 5rem;
   max-width: 100%;
+  padding: 0 3rem;
 }
 
 #about-us img {
@@ -222,7 +226,7 @@ span {
   max-width: 30rem;
 }
 
-.about-content h2 {
+.about-heading {
   font-size: 2rem;
   margin: 0 0 2rem;
   color: var(--green-color);
@@ -231,12 +235,12 @@ span {
 }
 
 .about-content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .about-content button {
   margin: 2rem auto;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding: .75rem;
   border-radius: 1rem;
@@ -258,4 +262,62 @@ span {
 .about-content button i {
   font-size: .9rem;
   margin-right: .3rem;
+}
+
+#services {
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 65%;
+}
+
+.section-heading {
+  font-size: 2.3rem;
+  margin: 0 0 2rem;
+  color: var(--green-color);
+  text-shadow: 0px 1px 1px rgba(22, 23, 22, 0.20);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.cards {
+  width: 100%;
+  border: 1px solid #d0d0d080;
+  border-radius: 1rem;
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  background-color: var(--white-color2);
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.card-content h4 {
+  font-size: 1.3rem;
+  color: var(--green-color);
+  text-shadow: var(--light-shadow);
+}
+
+.card-content p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
 }
