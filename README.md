@@ -31,4 +31,4 @@ Este projeto é distribuído sob a licença [MIT](LICENSE).
 
 ---
 
-**Agile Transportes** - Desenvolvido por [Seu Nome]
+**Agile Transportes** - Desenvolvido por Lucas Ponciano
