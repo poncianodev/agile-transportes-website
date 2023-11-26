@@ -265,7 +265,7 @@ span {
 }
 
 #services {
-  margin: 8rem auto;
+  margin: 5rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -320,4 +320,49 @@ span {
   height: auto;
   object-fit: cover;
   border-radius: 1rem 1rem 0 0;
+}
+
+/* CTA */
+
+#cta-container {
+  width: 100%;
+  height: 20rem;
+  background-image: url(../images/cta-image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#cta-container h2 {
+  font-size: 2.3rem;
+  color: var(--white-color);
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.cta-button {
+  padding: .7rem;
+  border-radius: .7rem;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px #16171649;
+  border: none;
+  font-weight: 500;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  transition: .3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--gray-color);
+  transform: scale(1.1);
+}
+
+#ks {
+  height: 20rem;
 }
