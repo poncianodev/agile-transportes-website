@@ -1,3 +1,17 @@
+// NAV BAR
+
+window.onload = function () {
+  window.addEventListener('scroll', (e) => {
+    if (window.pageYOffset > 100) {
+      document.querySelector('header').classList.add('header-scroll');
+      document.querySelector('#nav-logo').style.height = '3rem';
+    } else {
+      document.querySelector('header').classList.remove('header-scroll');
+      document.querySelector('#nav-logo').style.height = '5rem';
+    }
+  });
+};
+
 // DURAÇÃO DO VÍDEO HEADER
 
 let heroVideo = document.getElementById('hero-video');
