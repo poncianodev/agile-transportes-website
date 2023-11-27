@@ -387,7 +387,7 @@ span {
 }
 
 .map-container {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -395,7 +395,7 @@ span {
 }
 
 .map-container svg {
-  max-width: 60%;
+  max-width: 100%;
 }
 
 .centro-sul,
