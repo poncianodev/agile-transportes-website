@@ -382,6 +382,10 @@ span {
   align-items: center;
 }
 
+#brazil-map .section-heading {
+  margin: 0 2rem 2rem;
+}
+
 .map-container {
   width: 80%;
   display: flex;
@@ -459,14 +463,14 @@ path {
   justify-content: center;
   align-self: center;
   border-collapse: collapse;
-  border: 1px solid var(--black-color-light);
+  border: 1px solid var(--gray-color2);
   border-radius: .5rem;
 }
 
 .map-subtitle td {
   font-size: 1.1rem;
   padding: 1rem;
-  border-bottom: 1px solid var(--black-color-light);
+  border-bottom: 1px solid var(--gray-color2);
 }
 
 .map-subtitle tr:last-child td {
