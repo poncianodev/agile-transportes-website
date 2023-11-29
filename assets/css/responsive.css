@@ -47,6 +47,20 @@
   #about-us {
     gap: 2rem;
   }
+
+  #contact-us {
+    flex-direction: column;
+  }
+
+  .contact-content {
+    text-align: center;
+    max-width: 30rem;
+    margin: 0 2rem;
+  }
+
+  .contact-content h2 {
+    margin: -2rem 0 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,6 +85,10 @@
 
   #services {
     max-width: 80%;
+  }
+
+  #contact-us {
+    flex-direction: column;
   }
 }
 
@@ -106,5 +124,16 @@
 
   .hero-button {
     font-size: 1rem;
+  }
+
+  #contact-us img {
+    max-width: 20rem;
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #contact-us img {
+    max-width: 15rem;
   }
 }
