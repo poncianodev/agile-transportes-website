@@ -64,3 +64,8 @@ document.onmousemove = e => {
   description.style.left = e.pageX + 'px';
   description.style.top = e.pageY - 70 + 'px';
 };
+
+//SLIDER
+
+var copy = document.querySelector('.logos-slide').cloneNode(true);
+document.querySelector('.logos').appendChild(copy);
