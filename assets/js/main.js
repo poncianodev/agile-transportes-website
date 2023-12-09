@@ -12,6 +12,28 @@ window.onload = function () {
   });
 };
 
+// MENU MOBILE
+
+document.addEventListener('DOMContentLoaded', () => {
+  const menuBtn = document.querySelector('.menu-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const closeBtn = document.querySelector('.close-btn');
+  const mobileMenuClick = document.querySelector('.mobile-menu ul');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.style.display = 'block';
+    mobileMenu.style.animation = 'showMenu 2s forwards';
+  });
+
+  closeBtn.addEventListener('click', () => {
+    mobileMenu.style.animation = 'hideMenu 2s forwards';
+  });
+
+  mobileMenuClick.addEventListener('click', () => {
+    mobileMenu.style.animation = 'hideMenu 2s forwards';
+  });
+});
+
 // DURAÇÃO DO VÍDEO HEADER
 
 let heroVideo = document.getElementById('hero-video');
@@ -25,22 +47,6 @@ heroVideo.addEventListener('timeupdate', () => {
 });
 
 heroVideo.play();
-
-// MENU MOBILE
-
-document.addEventListener('DOMContentLoaded', () => {
-  const menuBtn = document.querySelector('.menu-btn');
-  const mobileMenu = document.querySelector('.mobile-menu');
-  const closeBtn = document.querySelector('.close-btn');
-
-  menuBtn.addEventListener('click', () => {
-    mobileMenu.style.display = 'block';
-  });
-
-  closeBtn.addEventListener('click', () => {
-    mobileMenu.style.display = 'none';
-  });
-});
 
 // MAPA BRASIL
 
@@ -65,7 +71,7 @@ document.onmousemove = e => {
   description.style.top = e.pageY - 70 + 'px';
 };
 
-//SLIDER
+//SLIDE LOGOS
 
-var copy = document.querySelector('.logos-slide').cloneNode(true);
+let copy = document.querySelector('.logos-slide').cloneNode(true);
 document.querySelector('.logos').appendChild(copy);

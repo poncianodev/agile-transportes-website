@@ -90,6 +90,10 @@
   #contact-us {
     flex-direction: column;
   }
+
+  .waves {
+    max-height: 50px;
+  }
 }
 
 
@@ -127,13 +131,13 @@
   }
 
   #contact-us img {
-    max-width: 20rem;
+    width: 20rem;
     margin: 0 2rem;
   }
 }
 
 @media (max-width: 320px) {
   #contact-us img {
-    max-width: 15rem;
+    width: 15rem;
   }
 }
