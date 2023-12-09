@@ -22,15 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   menuBtn.addEventListener('click', () => {
     mobileMenu.style.display = 'block';
-    mobileMenu.style.animation = 'showMenu 2s forwards';
+    mobileMenu.style.animation = 'showMenu 1s forwards';
   });
 
   closeBtn.addEventListener('click', () => {
-    mobileMenu.style.animation = 'hideMenu 2s forwards';
+    mobileMenu.style.animation = 'hideMenu 1s forwards';
   });
 
   mobileMenuClick.addEventListener('click', () => {
-    mobileMenu.style.animation = 'hideMenu 2s forwards';
+    mobileMenu.style.animation = 'hideMenu 1s forwards';
   });
 });
 
