@@ -14,7 +14,7 @@ Bem-vindo ao projeto "Agile Transportes"! Este é um site fictício para uma tra
 
 - **Página Inicial:** Apresenta uma introdução à empresa e destaca seus principais serviços.
 
-- **Solicitação de Cotação:** Permite aos usuários solicitar uma cotação de transporte preenchendo um formulário simples.
+- **Solicitação de Cotação:** Permite aos usuários solicitar uma cotação de transportes, com botões que levam para o Whatsapp.
 
 - **Menu Responsivo:** A interface do site é responsiva para garantir uma experiência consistente em dispositivos móveis.
 
