@@ -25,6 +25,10 @@ Bem-vindo ao projeto "Agile Transportes"! Este é um site fictício para uma tra
 1. Clone o repositório: `git clone https://github.com/poncianodev/agile-transportes-website.git`.
 2. Abra o arquivo `index.html` em um navegador da web.
 
+Ou
+
+Acesse o link de [a href="https://agiletransportes.netlify.app/"]Deploy[/a]
+
 ## Licença
 
 Este projeto é distribuído sob a licença [MIT](LICENSE).
